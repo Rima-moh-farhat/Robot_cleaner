@@ -1,0 +1,8 @@
+prefix=/home/rima/catkin_ws/devel
+
+Name: my_burger_package
+Description: Description of my_burger_package
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/rima/catkin_ws/devel
+
+Name: rima
+Description: Description of rima
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
