@@ -1,0 +1,13 @@
+<launch>
+  <!-- Define arguments -->
+  <arg name="world_file" default="$(find robot_cleaner)/worlds/cleaning_environment.world"/>
+
+  <!-- Load Gazebo with the specified world file -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(arg world_file)"/>
+  </include>
+
+  <!-- Launch cleaning robot nodes -->
+  <node name="cleaning_robot_controller" pkg="robot_cleaner" type="cleaning_robot_controller_node"/>
+
+</launch>
