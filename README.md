@@ -1,6 +1,5 @@
 # Robot_cleaner
 Prerequisites
-(since I have not tested on multiple platforms, and versions, I am listing only the configuration I used)
 
 Ubuntu 20.04 
 Gazebo >= azebo multi-robot simulator, version 11.14.0
