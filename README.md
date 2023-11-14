@@ -2,7 +2,7 @@
 Prerequisites
 
 Ubuntu 20.04 
-Gazebo >= azebo multi-robot simulator, version 11.14.0
+Gazebo >= version 11.14.0
 ROS Noetic
 following ROS packages were used and the process of obtaining them is detailed below:
 gmapping
